@@ -20,22 +20,22 @@ class People extends Equatable {
     this.url,
   });
 
-  final String name;
-  final String height;
-  final String mass;
-  final String hairColor;
-  final String skinColor;
-  final String eyeColor;
-  final String birthYear;
-  final String gender;
-  final String homeworld;
-  final List<String> films;
-  final List<String> species;
-  final List<String> vehicles;
-  final List<String> starships;
-  final DateTime created;
-  final DateTime edited;
-  final String url;
+  String name;
+  String height;
+  String mass;
+  String hairColor;
+  String skinColor;
+  String eyeColor;
+  String birthYear;
+  String gender;
+  String homeworld;
+  List<String> films;
+  List<String> species;
+  List<String> vehicles;
+  List<String> starships;
+  DateTime created;
+  DateTime edited;
+  String url;
 
   factory People.fromJson(Map<String, dynamic> json) => People(
         name: json['name'],
